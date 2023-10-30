@@ -340,6 +340,14 @@ img {
 }
 
 /* ===== WORK =====*/
+.work.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .work__container {
   row-gap: 2rem;
 }
@@ -527,4 +535,11 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+/* CSS to center the map */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
